@@ -1,0 +1,51 @@
+
+.bleft{
+  margin-top: 210rpx;
+  color: black;
+  background-color: green;
+  height: 110rpx;
+  width: 110rpx;
+  vertical-align:middle;
+}
+
+.bpause{
+  margin-top:0rpx;
+  color: black;
+  background-color: green;
+  height: 110rpx;
+  width: 110rpx;
+  vertical-align:middle;
+}
+
+.bright{
+  margin-top:100rpx;
+  color: black;
+  background-color: green;
+  height: 110rpx;
+  width: 110rpx;
+  vertical-align:middle;
+}
+
+.bdown{
+  margin-top: 20rpx;
+  color: black;
+  background-color: green;
+  height: 110rpx;
+  width: 110rpx;
+  vertical-align:middle;
+}
+
+.bc{
+  margin-top: 20rpx;
+  color: black;
+  background-color: green;
+  height: 110rpx;
+  width: 110rpx;
+  vertical-align:middle;
+}
+
+canvas{
+  margin-top: 0rpx;
+  height: 100%;
+}
+

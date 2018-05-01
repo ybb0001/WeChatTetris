@@ -1,0 +1,26 @@
+
+<view class="container" style="display:flex;flex-direction: row; justify-content: flex-end;height:1150rpx;"
+>
+
+
+  <view class="flex-column" style="display:flex; flex-direction: column;">
+      <button type="default" bindtap="bleft"
+      size="default" class="bleft"> ← </button>   
+      <button type="default" bindtap="bdown" bindtouchstart="touchStart" bindtouchend="touchEnd" size="default" class="bdown"> ↓ </button>  
+  </view>
+
+
+  <canvas canvas-id="tetris" disable-scroll="true" bindtouchend='canvasTouchend' bindtouchstart='canvasTouchstart'  style='height:1150rpx' catchtouchend='cte'
+  />
+
+
+  <view class="flex-column" style="display:flex; flex-direction: column;">
+    <button type="default" bindtap="bpause" size="default" class="bpause"> {{psTxt}} </button> 
+
+    <button type="default" bindtap="bright"
+    size="default" class="bright"> → </button> 
+
+    <button type="default" bindtap="bc" size="default" class="bc"> ↻ </button> 
+  </view>
+
+</view>
